@@ -3,7 +3,7 @@ import ReviewImage from "@/public/pictures/image5.png";
 
 export default function Review() {
   return (
-    <div className="shadow-md flex justify-center mx-auto p-4 md:p-12 lg:p-16 rounded-3xl w-5/6 lg:w-4/5 ">
+    <div className="shadow-md flex justify-center mx-auto p-4 md:p-12 lg:p-16 rounded-3xl w-5/6 lg:w-4/5">
       <div className="">
         <h1 className="text-left font-bold text-xl mb-4">Testimonials</h1>
         <h2 className="font-bold text-2xl rounded-3xl">

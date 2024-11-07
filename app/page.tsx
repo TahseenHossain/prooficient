@@ -39,7 +39,7 @@ export default function Home() {
             />
           </svg>
         </Link>
-        <h1 className="md:mx-10 lg:mx-[450px] text-center my-5">
+        <h1 className="max-w-[510px] mx-auto text-center my-5">
           Excepteur sint occaecat cupidat non proident sunt in culpam qui the
           officia deserunt mollit the anim id est ex ea comm.
         </h1>

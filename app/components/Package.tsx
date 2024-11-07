@@ -2,9 +2,8 @@ import { FaCheck } from "react-icons/fa6";
 
 export default function Package() {
   return (
-    <div className="flex flex-col lg:flex-row justify-center lg:gap-4 items-center mx-auto p-4">
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center lg:gap-4 items-center mx-auto p-4"> */}
-      <div className="rounded-3xl p-10 shadow-md mt-6 w-96 h-[500px]">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center mx-auto px-10">
+      <div className="rounded-3xl p-10 shadow-md mt-6 max-w-96 min-w-72 h-[500px] mx-auto">
         <h1 className="font-700 text-[22px] text-[#121212]">Book </h1>
         <p className="text-[#3E3E59] text-base font-normal">Pay as you go</p>
         <h1 className="text-[#121212] text-5xl font-bold mt-4 mb-2">
@@ -39,8 +38,7 @@ export default function Package() {
           </div>
         </div>
       </div>
-
-      <div className="rounded-3xl p-10 shadow-md mt-6 w-96 h-[500px]">
+      <div className="rounded-3xl p-10 shadow-md mt-6  max-w-96 min-w-72 h-[500px] mx-auto">
         <h1 className="font-700 text-[22px] text-[#121212]">Article </h1>
         <p className="text-[#3E3E59] text-base font-normal">Pay as you go</p>
         <h1 className="text-[#121212] text-5xl font-bold mt-4 mb-2">BDT 20</h1>
@@ -73,8 +71,7 @@ export default function Package() {
           </div>
         </div>
       </div>
-
-      <div className="rounded-3xl p-10 shadow-md mt-6 w-96 h-[500px]">
+      <div className="rounded-3xl p-10 shadow-md mt-6  max-w-96 min-w-72 h-[500px] mx-auto">
         <h1 className="font-700 text-[22px] text-[#121212]">Custom plan </h1>
         <p className="text-[#3E3E59] text-base font-normal">Enterprise only</p>
         <h1 className="text-[#121212] text-5xl font-bold mt-4 mb-2">Custom</h1>
