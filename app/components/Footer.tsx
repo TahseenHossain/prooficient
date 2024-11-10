@@ -64,7 +64,6 @@ export default function Footer() {
                 </h1>
               </div>
             </div>
-            <div></div>
           </div>
         </div>
       </footer>
