@@ -21,7 +21,7 @@ export default function Pricing() {
         </li>
         <li>Pay Yearly</li>
       </ul>
-      <h2 className="font-normal text-sm flex flex-col justify-center items-center lg:hidden">
+      <h2 className="font-normal text-sm flex flex-col justify-center items-center lg:hidden px-5">
         Completely synergize resource taxing relationships via premier niche
         markets. Professionally cultivate customer service.
       </h2>
