@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function QuickFixing() {
   return (
-    <div className="mx-auto p-4 hidden lg:flex flex-col lg:flex-row justify-center items-center bg-white gap-20 my-12 max-w-[1350px]">
+    <div className="mx-auto p-4 hidden lg:flex flex-col lg:flex-row justify-center items-center bg-white gap-20 my-12 max-w-[1350px] px-4">
       <div className="my-12 max-w-[518px]">
         <button className="rounded-[100px] border-[#121212] border-2 py-1 px-3 text-sm font-semibold my-6">
           Quick Fixing

@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Analyze() {
   return (
-    <div className="relative z-50 bg-white">
-      <div className="mx-auto my-12 md:my-20 lg:hidden flex flex-col items-center px-4">
+    <div className="">
+      <div className="mx-auto my-12 md:my-20 lg:hidden flex flex-col items-start px-4">
         <div className="my-12">
           <button className="rounded-[100px] border-[#121212] border-2 py-1 px-3 text-sm font-semibold my-6">
             Strategies
@@ -52,7 +52,7 @@ export default function Analyze() {
             </p>
           </Link>
         </div>
-        <Image src={Statistic} alt="" className="w-[600px] h-[379px]"></Image>
+        <Image src={Statistic} alt="" className="w-[600px] h-[379px] flex items-start"></Image>
       </div>
     </div>
   );

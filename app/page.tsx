@@ -22,7 +22,7 @@ export default function Home() {
       <SidePreview></SidePreview>
       <Pricing></Pricing>
       <Package></Package>
-      <div className="flex flex-col justify-center items-center mt-16 w-5/6 mx-auto">
+      <div className="flex flex-col justify-center items-center mt-16 max-w-[510px] mx-auto">
         <Link href="/">
           <svg
             width="316"

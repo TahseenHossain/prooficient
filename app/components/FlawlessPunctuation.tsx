@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function FlawlessPunctuation() {
   return (
-    <div className="mx-auto hidden lg:flex flex-col lg:flex-row justify-center items-center lg:gap-24 bg-white max-w-[1350px]">
+    <div className="mx-auto hidden lg:flex flex-col lg:flex-row justify-center items-center lg:gap-24 bg-white max-w-[1350px] px-4">
       <Image src={People} alt="" className="w-[600px] h-[379px]"></Image>
       <div className="my-12 max-w-[518px]">
         <button className="rounded-[100px] border-[#121212] border-2 py-1 px-3 text-sm font-semibold my-6">

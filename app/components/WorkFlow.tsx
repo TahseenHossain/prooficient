@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function WorkFlow() {
   return (
-    <div className="relative z-50 bg-white">
-      <div className="mx-auto md:my-20 lg:hidden flex flex-col-reverse justify-center items-center px-4">
+    <div className="bg-white">
+      <div className="mx-auto md:my-20 lg:hidden flex flex-col-reverse justify-start items-start px-4">
         <Image src={People} alt="" className="w-[600px] h-[379px]"></Image>
         <div className="lg:ml-24">
           <button className="rounded-[100px] border-[#121212] border-2 py-1 px-3 text-sm font-semibold my-6">

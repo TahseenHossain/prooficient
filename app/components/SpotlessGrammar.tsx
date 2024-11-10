@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function SpotlessGrammar() {
   return (
-    <div className="mx-auto my-12 md:my-20 lg:my-40 hidden lg:flex flex-col lg:flex-row justify-center lg:gap-24 items-center bg-white max-w-[1350px]">
+    <div className="mx-auto my-12 md:my-20 lg:my-40 hidden lg:flex flex-col lg:flex-row justify-center lg:gap-24 items-center bg-white max-w-[1350px] px-4">
       <div className="my-12 max-w-[540px]">
         <button className="rounded-[100px] border-[#121212] border-2 py-1 px-3 text-sm font-semibold my-6">
           Spotless Grammar
