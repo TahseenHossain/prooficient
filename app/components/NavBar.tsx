@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-between item-center mx-auto px-2 my-2 lg:my-4 text-lg font-bold">
+    <nav className="flex justify-between item-center mx-auto my-2 lg:my-4 text-lg font-bold max-w-[1920px]  px-8">
       <Link href="/" className="flex items-center">
         <svg
           width="100"

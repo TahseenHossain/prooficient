@@ -13,7 +13,7 @@ export default function Banner() {
           <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center flex justify-center mt-16 mb-5">
             Perfect Your Words with Prooficient
           </h1>
-          <h3 className="text-base md:text-xl lg:text-2xl font-normal py-4">
+          <h3 className="text-base lg:text-2xl font-normal py-4">
             Make every word count. Ensure clarity, accuracy, and professionalism
             in your writing with expert proofreading services that catch every
             error, from typos to tricky grammar.
@@ -23,7 +23,7 @@ export default function Banner() {
           </button>
         </div>
       </div>
-      <div className="mx-2 md:mx-8 lg:mx-32 shadow-2xl mt-8 lg:mt-24">
+      <div className="mx-2 md:mx-8 lg:mx-32 shadow-2xl mt-8 lg:mt-24 max-w-[1537px]">
         {play ? (
           <iframe
             src="https://www.youtube.com/embed/NY76mkzJT6o"

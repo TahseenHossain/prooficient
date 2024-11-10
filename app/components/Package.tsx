@@ -2,7 +2,7 @@ import { FaCheck } from "react-icons/fa6";
 
 export default function Package() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center mx-auto p-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center mx-auto p-20 max-w-[1350px]">
       <div className="rounded-3xl p-10 shadow-md mt-6 w-full max-w-sm h-[500px] mx-auto">
         <h1 className="font-700 text-[22px] text-[#121212]">Book </h1>
         <p className="text-[#3E3E59] text-base font-normal">Pay as you go</p>

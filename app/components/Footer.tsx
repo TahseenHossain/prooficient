@@ -6,68 +6,66 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div>
-      <footer className="mx-auto lg:my-16 p-4">
-        <div>
-          <div className="flex flex-col lg:flex-row">
-            <div className="lg:mx-20">
-              <h1 className="font-bold text-3xl">Get exclusive content</h1>
-              <p className="font-normal text-lg py-2">
-                Subscribe to Beyond the Canvas and get the latest design news,
-                articles, resources and inspiration.
-              </p>
+    <footer className="mx-auto max-w-[1200px] mt-20 flex flex-col justify-center gap-20">
+      <div className="mx-auto flex justify-center items-center">
+        <div className="flex flex-col lg:flex-row">
+          <div className="max-w-[650px] justify-center">
+            <h1 className="font-bold text-3xl">Get exclusive content</h1>
+            <p className="font-normal text-lg">
+              Subscribe to Beyond the Canvas and get the latest design news,
+              articles, resources and inspiration.
+            </p>
+          </div>
+          <div className="">
+            <div className="flex flex-col lg:flex-row items-center gap-3 mb-2">
+              <input
+                type="text"
+                placeholder="Your email"
+                className="w-96 h-14 boundary-[#C4C4C4] text-[#C4C4C4] p-2 rounded-md border-2"
+              />
+              <button className="bg-[#212121] text-white py-2 px-3 h-14 w-96 lg:w-36 rounded-md text-base font-bold flex items-center justify-center">
+                Sign up
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.16699 10.0007H15.8337"
+                    stroke="white"
+                    stroke-width="1.25"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12.5 13.3333L15.8333 10"
+                    stroke="white"
+                    stroke-width="1.25"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12.5 6.66602L15.8333 9.99935"
+                    stroke="white"
+                    stroke-width="1.25"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
             </div>
-            <div className="lg:mx-20">
-              <div className="flex flex-col lg:flex-row items-center gap-3 mb-2">
-                <input
-                  type="text"
-                  placeholder="Your email"
-                  className="w-96 h-14 boundary-[#C4C4C4] text-[#C4C4C4] p-2 rounded-md border-2"
-                />
-                <button className="bg-[#212121] text-white py-2 px-3 h-14 w-96 lg:w-36 rounded-md text-base font-bold flex items-center justify-center">
-                  Sign up
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M4.16699 10.0007H15.8337"
-                      stroke="white"
-                      stroke-width="1.25"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M12.5 13.3333L15.8333 10"
-                      stroke="white"
-                      stroke-width="1.25"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M12.5 6.66602L15.8333 9.99935"
-                      stroke="white"
-                      stroke-width="1.25"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-              </div>
-              <div className="flex gap-2 justify-center lg:justify-start p-4">
-                <input type="radio" name="" id="" />
-                <h1 className="font-light text-sm">
-                  I agree to receive marketing emails from prooficient.
-                </h1>
-              </div>
+            <div className="flex gap-2 justify-center lg:justify-start p-4">
+              <input type="radio" name="" id="" />
+              <h1 className="font-light text-sm">
+                I agree to receive marketing emails from prooficient.
+              </h1>
             </div>
           </div>
         </div>
-      </footer>
-      <footer className="mx-6 lg:mx-20 lg:my-16">
+      </div>
+      <div className="mx-6 lg:mx-20 lg:my-16">
         <div className="flex justify-start lg:justify-center py-16 gap-6 h-7">
           <svg
             width="150"
@@ -117,7 +115,7 @@ export default function Footer() {
         <div className="text-center my-5 flex justify-center text-xs font-normal">
           © 2024 Prooficinet
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }

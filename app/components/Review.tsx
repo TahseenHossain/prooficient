@@ -3,8 +3,8 @@ import ReviewImage from "@/public/pictures/image5.png";
 
 export default function Review() {
   return (
-    <div className="shadow-md flex justify-center mx-auto p-4 md:p-12 lg:p-16 rounded-3xl w-5/6 lg:w-4/5">
-      <div className="">
+    <div className="shadow-md flex mx-auto rounded-3xl max-w-[1200px]">
+      <div className="p-4 md:p-12 lg:p-16 max-w-[850px]">
         <h1 className="text-left font-bold text-xl mb-4">Testimonials</h1>
         <h2 className="font-bold text-2xl rounded-3xl">
           “With Prooficient, everyone in my team works towards the same goal.
